@@ -1,0 +1,188 @@
+* {
+	box-sizing: border-box;
+}
+
+main {
+	background-color: #bad6e1!important;
+}
+
+body {
+	font-family: 'Heebo', sans-serif;
+}
+
+#sign-up-form {
+	background-color: white!important;
+	margin: auto;
+	max-width: 750px;
+	padding: 40px 0px;
+	border-radius: 0px 0px 30px 30px;
+	margin-bottom: 40px;
+}
+
+#sign-up-form #main-form-title {
+	font-size: 26px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+#sign-up-form #sign-in-link,
+#sign-up-form #cancel a {
+	color: black;
+	font-weight: bold;
+}
+
+#sign-up-form input[type="text"],
+#sign-up-form input[type="password"],
+#sign-up-form input[type="email"] {
+	width: 250px;
+	display: block;
+	margin: auto;
+	margin-bottom: 10px;
+	box-shadow: 1px 3px 5px gray;
+	border: 1px solid lightgray;
+}
+
+#sign-up-form input[type="submit"] {
+	background-color: #11b0cd;
+	color: white;
+	border: 0;
+	font-size: 20px;
+	padding: 6px 12px;
+}
+
+#sign-up-form p {
+	font-size: 18px;
+}
+
+#sign-up-form #support-text {
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+#sign-up-form #personal-details-heading {
+	display: flex;
+	width: 250px;
+	font-weight: bold;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 40px;
+}
+
+#sign-up-form #personal-details-heading:before,
+#sign-up-form #personal-details-heading:after {
+	content: "";
+	border-top: 1.5px solid #9d9d9d;
+	flex: 1 0 20px;
+}
+
+#sign-up-form #personal-details-heading:before {
+	margin-left: 10px;
+}
+
+#sign-up-form #personal-details-heading:after {
+	margin-right: 10px;
+}
+
+#sign-up-form .checkboxes {
+	margin-right: 20px;
+}
+
+#sign-up-form #support {
+	display: none;
+}
+
+#sign-up-form #amount {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 540px;
+	margin: auto;
+	justify-content: center;
+	align-items: stretch;
+}
+
+#sign-up-form #amount>label {
+	width: 25%;
+	color: #16a5b6;
+	padding: 5px 0;
+	border-radius: 20px;
+	margin: 0 10px 30px 10px;
+	display: block;
+	position: relative;
+}
+
+#sign-up-form #amount>label:hover {
+	cursor: pointer;
+	background-color: #e8f3e5;
+}
+
+#sign-up-form #amount .number {
+	font-size: 32px;
+	font-weight: bold;
+	width: 100%;
+}
+
+#sign-up-form #custom-amount-section {
+	display: none;
+}
+
+#sign-up-form .other {
+	font-size: 20px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#sign-up-form #cancel {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+#sign-up-form #amount input[type="radio"] {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 1px;
+	opacity: 0;
+}
+
+#sign-up-form #back-arrow {
+	font-size: 60px;
+	text-align: right;
+	cursor: pointer;
+}
+
+#sign-up-form #paying-iframe {
+	max-width: 600px;
+	margin: auto;
+	margin-top: -80px;
+}
+
+#sign-up-form #paying-iframe iframe {
+	width: 100%;
+	border: none;
+	height: 800px;
+}
+
+#sign-up-form #back-arrow {
+	display: none;
+}
+
+#empty-fields-msg {
+	background-color: #F8D7DA;
+	color: #975057;
+	display: none;
+	width: 250px;
+	margin: auto;
+	font-weight: bold;
+}
+
+@media screen and (min-width: 800px) {
+	#sign-up-form .checkboxes,
+	#sign-up-form #back-arrow {
+		margin-right: 100px!important;
+	}
+}
