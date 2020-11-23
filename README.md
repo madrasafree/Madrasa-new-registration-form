@@ -12,7 +12,7 @@ Files to add to Theme:
 * [login_and_register.html](https://github.com/edx/edx-platform/blob/master/lms/templates/student_account/login_and_register.html)
 * [register.underscore](https://github.com/edx/edx-platform/blob/master/lms/templates/student_account/register.underscore)
 
-The new form will include an optional checkbox and a new section that includes multiple amounts to click, the Iframe will open inside the page and include a payment page where the payment will be made, the data will be sent by the iCredit API. Some of the amounts will have fixed monthly amounts - 25, 50, 100, 200 and the option of a customized monthly amount and a customized one-time amount.
+The new form will include an optional checkbox and a new section that includes multiple amounts to click, the Iframe will open inside the page and include a payment page where the payment will be made, the data will be sent by the [iCredit API](https://drive.google.com/file/d/1iBw3O1Jzl2v9pgbFBxqteXAIDjdeamgH/view?usp=sharing) . Some of the amounts will have fixed monthly amounts - 25, 50, 100, 200 and the option of a customized monthly amount and a customized one-time amount.
 
 There are two possible scenarios for integrating the donation process into the form:
 1. (More desirable) - The fields of the registration form will appear on the screen along with the iFrame of the donation, and one button will complete both processes.
