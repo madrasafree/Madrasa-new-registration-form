@@ -29,8 +29,8 @@ https://testicredit.rivhit.co.il/Management/Login.aspx?redirect=Templates.aspx
 
 login details:
 
-Username: user2
-Password: password2
+* Username: user2
+* Password: password2
 
 Optional test payment page ID - test page:
 6ff3d7c6-001c-48ea-a6c8-9482791c1d60
