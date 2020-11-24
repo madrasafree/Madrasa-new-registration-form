@@ -21,7 +21,9 @@ There are two possible scenarios for integrating the donation process into the f
 2. After checking the donation's checkbox, and registering on the site, the user will be transferred after the successful registration to a new screen that includes the iFrame of the donation. 
 
 The server code will be written in Python / django. There is a demo code of iCredit IPA (sent by their support team). 
-There are files of the current project status (based on the examples written in php and HTML / CSS / JS / jQuery).
+The functionality of php file should be done in python. 
+
+There are files of the front end (written in php and HTML / CSS / JS / jQuery).
 
 
 ## Tests
