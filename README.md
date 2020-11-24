@@ -3,8 +3,10 @@
 
 New registration form for the [Madrasa website](https://madrasafree.com/)
 The form will include: 
+
 1. Registration form for OPENEDX learning system as it is now.
 2. Optional donation to our social movement.
+
 The file will be embedded in our website using the [OpenEdx Platform](https://github.com/edx/edx-platform). The relevant files for the registration file must be added to our [OpenEdx Theme](https://github.com/amitbend/madrasa_theme
 ), an action that will replace the default registration form found in OPENEDX's templete in our new form.
 
@@ -43,3 +45,7 @@ api@rivhit.co.il
 
 Current registration page (without the support section)
 https://madrasafree.com/register
+
+
+![Form style and UI](https://github.com/madrasafree/Madrasa-new-registration-form/blob/main/style_and_UI%20.jpg)
+
